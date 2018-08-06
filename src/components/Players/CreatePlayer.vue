@@ -137,7 +137,9 @@
 
 <script>
 /* eslint-disable */
+import * as VCard from 'vuetify/es5/components/VCard'
   export default {
+
     data () {
       return {
         firstName: '',
@@ -152,6 +154,9 @@
         date: new Date(),
         time: new Date()
       }
+    },
+    components: {
+      VCard
     },
     computed: {
       formIsValid () {

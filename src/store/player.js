@@ -1,7 +1,7 @@
-/* eslint-disable */
 import * as firebase from 'firebase/app'
 
 export default {
+    /* eslint-disable */
     state: {
         loadedPlayers: [{
                 imageUrl: 'https://cdn-04.independent.ie/sport/article31172892.ece/b282e/AUTOCROP/w620/2015-04-26_spo_8620492_I1.JPG',

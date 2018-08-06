@@ -1,8 +1,8 @@
 {
-    "name": "yt-devmeetup-vue",
+    "name": "Hurling-App",
     "version": "1.0.0",
-    "description": "A dev meetup applicatin built with Vue + Vuetify + Firebase",
-    "author": "Maximilian Schwarzmüller <business@academind.com>",
+    "description": "A Hurling Profile App built with Vue + Vuetify + Firebase",
+    "author": "Johnny Cuddihy <jcuddles@msn.com>",
     "private": true,
     "scripts": {
         "dev": "node build/dev-server.js",
@@ -12,6 +12,7 @@
     },
     "dependencies": {
         "bfg": "^0.3.0",
+        "browserslist": "^4.0.1",
         "firebase": "^4.1.3",
         "vue": "^2.4.1",
         "vue-router": "^2.3.1",
@@ -51,8 +52,9 @@
         "rimraf": "^2.6.0",
         "semver": "^5.3.0",
         "shelljs": "^0.7.6",
+        "socks": "2.2.1",
         "stylus": "^0.54.5",
-        "stylus-loader": "^3.0.1",
+        "stylus-loader": "^3.0.2",
         "url-loader": "^0.5.8",
         "vue-loader": "^11.3.4",
         "vue-style-loader": "^2.0.5",
