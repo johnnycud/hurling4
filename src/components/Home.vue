@@ -33,6 +33,7 @@
 
 
 <script>
+/* eslint-disable */
   export default{
   computed : {
     players() {

@@ -13,7 +13,7 @@ Vue.config.productionTip = false
 Vue.filter('date', DateFilter)
 Vue.component('app-alert', AlertCmp)
 
-/* eslint-disable no-new */
+/* eslint-disable */
 new Vue({
     el: '#app',
     router,
