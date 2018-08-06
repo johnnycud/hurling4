@@ -1,5 +1,6 @@
-import * as firebase from 'firebase'
 /* eslint-disable */
+import * as firebase from 'firebase/app'
+
 export default {
     state: {
         loadedPlayers: [{
